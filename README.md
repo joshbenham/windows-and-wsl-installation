@@ -75,6 +75,20 @@ sudo /etc/init.d/mysql start
 sudo mysql_secure_installation
 ```
 
+## Create a New User inside of MySQL
+
+```bash
+sudo mysql
+```
+
+Then
+
+```
+CREATE USER 'developer'@'localhost' IDENTIFIED BY 'developer';
+GRANT ALL PRIVILEGES ON * . * TO 'developer'@'localhost';
+FLUSH PRIVILEGES;
+```
+
 ## Map Silversearch to ACK
 
 ```bash
