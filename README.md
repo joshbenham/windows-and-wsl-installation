@@ -6,11 +6,12 @@
 # Windows applications
 
  - Chocolatey
- - Firefox
  - Docker
- - VMWare Workstation Player
+ - Firefox
  - Steam
+ - TablePlus
  - Ubisoft Connect
+ - VMWare Workstation Player
 
 # Chocolatey applications
 
