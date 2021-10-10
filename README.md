@@ -73,12 +73,6 @@ sudo /etc/init.d/mysql start
 sudo mysql_secure_installation
 ```
 
-## Installing phpmyadmin
-
-```bash
-sudo apt install phpmyadmin
-```
-
 ## Map Silversearch to ACK
 
 ```bash
