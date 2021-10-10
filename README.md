@@ -7,8 +7,9 @@
 
  - Chocolatey
  - Firefox
- - VMWare
+ - VMWare Workstation Player
  - Steam
+ - Ubisoft Connect
 
 # Chocolatey Applications
 
