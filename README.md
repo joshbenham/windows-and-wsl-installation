@@ -7,6 +7,7 @@
 
  - Chocolatey
  - Firefox
+ - Docker
  - VMWare Workstation Player
  - Steam
  - Ubisoft Connect
