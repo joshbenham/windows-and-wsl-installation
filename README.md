@@ -119,8 +119,26 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 source ~/.bashrc
 ```
 
+## Setup SSH Keys and add them to Github
+
+```bash
+ssh-keygen
+```
+
+Follow the prompts then add them to https://github.com/settings/keys
+
 ## Install bin directory
 
 ```bash
 git clone --depth 1 git@github.com:joshbenham/bin.git ~/bin
 ```
+
+## Install dotfiles directory
+
+```bash
+git clone --depth 1 git@github.com:joshbenham/linux-dotfiles.git ~/dotfiles
+mv ~/.bashrc ~/.bashrc.back
+cd ~/dotfiles
+stow bash dircolors fonts git php vim
+cd ~
+source ~/.bashrc
