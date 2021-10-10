@@ -12,6 +12,7 @@
  - TablePlus
  - Ubisoft Connect
  - VMWare Workstation Player
+ - Windows Terminal Preview
 
 # Chocolatey applications
 
