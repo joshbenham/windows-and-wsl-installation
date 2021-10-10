@@ -96,6 +96,29 @@ squizlabs/php_codesniffer \
 phploc/phploc
 ```
 
+## Install Node
+
+```bash
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs yarn
+```
+
+## Install Bash-It and FZF
+
+```bash
+git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+~/.bash_it/install.sh
+
+source ~/.bashrc
+bash-it enable completion bash-it git gulp npm ssh system
+bash-it enable plugin alias-completion base fzf git
+bash-it enable alias general apt curl git npm vim
+
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+source ~/.bashrc
+```
+
 ## Install bin directory
 
 ```bash
