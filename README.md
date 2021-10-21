@@ -17,7 +17,16 @@
 # Chocolatey applications
 
 ```bash
-choco install cascadiacode discord foobar2000 git qbittorrent skype starship vlc vscode-insiders
+choco install cascadiacode \
+discord \
+foobar2000 \
+git \
+qbittorrent \
+skype \
+starship \
+vlc \
+vscode-insiders \
+zoom
 ```
 
 # WSL
