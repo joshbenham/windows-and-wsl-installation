@@ -9,6 +9,7 @@
  - Docker
  - Firefox
  - Steam
+ - Sublime Text 3
  - TablePlus
  - Ubisoft Connect
  - VMWare Workstation Player
