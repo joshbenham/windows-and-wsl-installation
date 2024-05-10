@@ -15,6 +15,12 @@
  - VMWare Workstation Player
  - Windows Terminal Preview
 
+# winget applications
+
+```bash
+winget install Zoom.Zoom
+```
+
 # Chocolatey applications
 
 ```bash
@@ -26,8 +32,7 @@ qbittorrent \
 skype \
 starship \
 vlc \
-vscode-insiders \
-zoom
+vscode-insiders
 ```
 
 # WSL
