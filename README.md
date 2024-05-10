@@ -9,7 +9,6 @@
  - Docker
  - Firefox
  - Steam
- - Sublime Text 3
  - Laravel Herd
  - TablePlus
  - Ubisoft Connect
