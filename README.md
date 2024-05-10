@@ -10,6 +10,7 @@
  - Firefox
  - Steam
  - Sublime Text 3
+ - Laravel Herd
  - TablePlus
  - Ubisoft Connect
  - VMWare Workstation Player
