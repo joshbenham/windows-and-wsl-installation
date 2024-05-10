@@ -17,7 +17,8 @@
 # winget applications
 
 ```bash
-winget install Microsoft.VisualStudioCode \
+winget install Discord.Discord \
+Microsoft.VisualStudioCode \ 
 Zoom.Zoom
 ```
 
@@ -25,7 +26,6 @@ Zoom.Zoom
 
 ```bash
 choco install cascadiacode \
-discord \
 foobar2000 \
 git \
 qbittorrent \
