@@ -22,7 +22,6 @@ Go to https://github.com/ryanoasis/nerd-fonts/releases and download CascadiaCode
 
 ```bash
 winget install cURL.cURL \
-DEVCOM.JetBrainsMonoNerdFont \ 
 Discord.Discord \
 Git.Git \
 junegunn.fzf \ 
