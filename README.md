@@ -17,7 +17,10 @@
 # winget applications
 
 ```bash
-winget install Discord.Discord \
+winget install cURL.cURL \
+Discord.Discord \
+Git.Git \ 
+Microsoft.Powershell \ 
 Microsoft.Skype \ 
 Microsoft.VisualStudioCode \
 PeterPawlowski.foobar2000 \
