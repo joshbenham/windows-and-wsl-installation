@@ -18,7 +18,8 @@
 # winget applications
 
 ```bash
-winget install Zoom.Zoom
+winget install Microsoft.VisualStudioCode \
+Zoom.Zoom
 ```
 
 # Chocolatey applications
@@ -30,9 +31,7 @@ foobar2000 \
 git \
 qbittorrent \
 skype \
-starship \
-vlc \
-vscode-insiders
+starship
 ```
 
 # WSL
