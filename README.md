@@ -14,6 +14,10 @@
  - Ubisoft Connect
  - QBittorrent
 
+# Nerd font
+
+Go to https://github.com/ryanoasis/nerd-fonts/releases and download CascadiaCode.zip 
+
 # winget applications
 
 ```bash
