@@ -6,14 +6,13 @@
 # Windows applications
 
  - Chocolatey
- - Docker
  - Firefox
- - Steam
  - Laravel Herd
  - TablePlus
- - Ubisoft Connect
  - VMWare Workstation Player
  - Windows Terminal Preview
+ - Steam
+ - Ubisoft Connect
 
 # winget applications
 
