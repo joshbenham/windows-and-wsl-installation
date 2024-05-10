@@ -18,6 +18,7 @@
 
 ```bash
 winget install Discord.Discord \
+Microsoft.Skype \ 
 Microsoft.VisualStudioCode \
 PeterPawlowski.foobar2000 \ 
 Zoom.Zoom
@@ -29,7 +30,6 @@ Zoom.Zoom
 choco install cascadiacode \
 git \
 qbittorrent \
-skype \
 starship
 ```
 
