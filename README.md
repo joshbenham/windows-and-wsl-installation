@@ -5,7 +5,6 @@
 
 # Windows applications
 
- - Chocolatey
  - Firefox
  - Laravel Herd
  - TablePlus
@@ -13,6 +12,7 @@
  - Windows Terminal Preview
  - Steam
  - Ubisoft Connect
+ - QBittorrent
 
 # winget applications
 
@@ -22,7 +22,8 @@ DEVCOM.JetBrainsMonoNerdFont \
 Discord.Discord \
 Git.Git \
 junegunn.fzf \ 
-Microsoft.Powershell \ 
+Microsoft.Powershell \
+Microsoft.PowerToys \ 
 Microsoft.Skype \ 
 Microsoft.VisualStudioCode \
 Neovim.Neovim \ 
@@ -63,14 +64,6 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 Set-Alias vim nvim
 Set-Alias ll ls
 Set-Alias grep findstr
-```
-
-# Chocolatey applications
-
-```bash
-choco install cascadiacode \
-git \
-qbittorrent
 ```
 
 # WSL
