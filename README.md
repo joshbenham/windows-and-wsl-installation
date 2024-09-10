@@ -21,7 +21,8 @@ Go to https://github.com/ryanoasis/nerd-fonts/releases and download CascadiaCode
 # winget applications
 
 ```bash
-winget install BurntSushi.ripgrep.MSVC \
+winget install 7Zip.7Zip \
+BurntSushi.ripgrep.MSVC \
 cURL.cURL \
 Discord.Discord \
 Git.Git \
