@@ -58,8 +58,15 @@ Invoke-Expression (&starship init powershell)
 Import-Module -Name Terminal-Icons
 
 # PSReadline
-Set-PSReadLineOption -PredictionSource History
-Set-PSReadLineOption -PredictionViewStyle ListView
+# Only enable predictive suggestions if the console is interactive and not redirected
+if ($Host.Name -eq 'ConsoleHost' -and !$Host.UI.RawUI.KeyAvailable -as [bool]) {
+    try {
+        Set-PSReadLineOption -PredictionSource History
+        Set-PSReadLineOption -PredictionViewStyle ListView
+    } catch {
+        # Silently fail if VT processing is still unavailable
+    }
+}
 
 # Fzf
 Import-Module PSFzf
